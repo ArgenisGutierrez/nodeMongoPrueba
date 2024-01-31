@@ -1,0 +1,9 @@
+###post a la base de datos
+POST http://localhost:3000/auth/register
+Content-Type: application/json
+
+{
+  "email":"arfhel@codes.com",
+  "password":"arfhel",
+  "username": "Arfhel"
+}
